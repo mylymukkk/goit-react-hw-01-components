@@ -1,0 +1,43 @@
+.table {
+  margin: 10px auto 0;
+  width: 500px;
+  table-layout: auto;
+
+  border-spacing: 0px;
+  box-shadow: 1px 1px 3px 0px rgba(206, 209, 247, 0.6);
+}
+
+.catagories {
+  padding: 10px;
+
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+
+  background-color: #00bcd5;
+  color: #fff;
+}
+
+.catagories:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.body {
+  text-align: center;
+
+  background-color: #fff;
+}
+
+.itemValue {
+  padding: 10px;
+
+  color: #aeafb1;
+}
+
+.itemValue:not(:nth-child(3n)) {
+  border-right: 1px solid #e7e9ec;
+}
+
+.item:nth-child(2n) {
+  background-color: #ecf1f4;
+}
