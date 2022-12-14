@@ -1,6 +1,10 @@
-.table {
+.transactionSection {
   margin: 10px auto 0;
   width: 500px;
+}
+
+.table {
+  width: 100%;
   table-layout: auto;
 
   border-spacing: 0px;
